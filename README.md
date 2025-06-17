@@ -4,9 +4,9 @@
 
 Specifically, `bean-sort` splits on any date at the beginning of a line.  All text between this and the next date are regarded as part of that record.  This is particularly important for any pragmas which follow any actual directive.
 
-Any test before the first date in the file is regarded as header.
+Any text before the first date in the file is regarded as header.
 
-The sortng is stable, that is, records already in date order are left undisturbed.
+The sorting is stable, that is, records already in date order are left undisturbed.
 
 Output is written to standard output.
 
