@@ -1,5 +1,7 @@
 # bean-sort
 
+*This utility was created without knowledge of [autobean-format](https://github.com/SEIAROTg/autobean-format).  That is recommended, and `bean-sort` is now deprecated.*
+
 `bean-sort` is a naive sorting utility for Beancount files.  It is naive in that it makes no attempt to parse the file, simply splitting on date fields.
 
 Specifically, `bean-sort` splits on any date at the beginning of a line.  All text between this and the next date are regarded as part of that record.  This is particularly important for any pragmas which follow any actual directive.
